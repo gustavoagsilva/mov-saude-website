@@ -1,0 +1,11 @@
+.cta {
+    background: var(--primary-color);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.cta__title {
+    margin-bottom: 20px;
+    font-size: 26px;
+}

@@ -1,0 +1,23 @@
+.problems {
+    background: var(--white);
+    padding: 60px 0;
+}
+
+.problems__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.problems__list {
+    margin-bottom: 15px;
+}
+
+.problems__item {
+    padding: 5px 0;
+    color: #555;
+}
+
+.problems__text {
+    font-weight: bold;
+    color: var(--primary-color);
+}
