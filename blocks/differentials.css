@@ -1,17 +1,45 @@
 .differentials {
-    padding: 60px 0;
+  padding: 60px 0;
+  background: #f4f7fb;
 }
 
 .differentials__title {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.differentials__list {
-    text-align: center;
+.differentials__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
 .differentials__item {
-    margin: 8px 0;
-    color: #555;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  background: #f4fbf6;
+  padding: 18px 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.differentials__item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.differentials__item i {
+  color: var(--primary-color);
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.differentials__item:hover i {
+  transform: scale(1.2);
+}
+
+.differentials__item span {
+  font-weight: 500;
 }

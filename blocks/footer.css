@@ -1,6 +1,29 @@
 .footer {
-    background: #111;
-    color: white;
-    padding: 40px 0;
-    text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: center;
+  background: #1b1b1b;
+  color: #ccc;
+  padding: 50px 20px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.footer__container p:first-child {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+}
+
+.footer a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
